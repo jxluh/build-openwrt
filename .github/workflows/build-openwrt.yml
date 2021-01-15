@@ -14,15 +14,15 @@ on:
     inputs:
       ssh:
         description: 'SSH远程'
-        required: true
+        required: false
         default: 'ssh-actions'
       wxtz:
         description: '微信通知'
-        required: true
+        required: false
         default: 'wxtz-actions'
       release:
         description: '发布固件'
-        required: true
+        required: false
         default: 'release-actions'
 
 
